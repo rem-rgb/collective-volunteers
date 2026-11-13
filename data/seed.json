@@ -1,0 +1,223 @@
+{
+  "areas": [
+    {
+      "id": "slides",
+      "title": "Sunday Slides",
+      "blurb": "Prepare and run the screens in Presenter.",
+      "needs_help": false,
+      "help_note": "Prepare the song words and run the screens during the gathering.",
+      "content": {
+        "sections": [
+          {
+            "id": "role",
+            "title": "Your role on slides",
+            "intro": "Slides help the whole room worship together. When the words appear at the right moment, nobody has to think about them, and that is the goal.",
+            "type": "role",
+            "items": [
+              {"title": "Know the songs", "text": "Being familiar with the songs is half the job. You will know when the next line is coming, and when the band repeats a chorus or jumps to the bridge."},
+              {"title": "Prepare at home if you can", "text": "Log in to Presenter at home with your own login and have the slides formatted before Sunday. Sunday morning is then just checking, not building."},
+              {"title": "Arrive at 9:00", "text": "Set up the laptop and screen, then run the slides along with the band's practice. It is the best rehearsal you can get for the flow of the morning."},
+              {"title": "Check the flow with the worship leader", "text": "Confirm the song order on screen matches what the band is playing, and ask about any repeats, spontaneous moments or changes."}
+            ]
+          },
+          {
+            "id": "prepare",
+            "title": "Preparing the service",
+            "intro": "This is done in Presenter. Every week the service should end up in this order:",
+            "order": [
+              {"t": "Welcome to The Collective", "tag": "Dark or Light"},
+              {"t": "New to The Collective"},
+              {"t": "Upcoming events", "tag": "If any"},
+              {"t": "Home Church"},
+              {"t": "Giving"},
+              {"t": "Song 1"},
+              {"t": "Song 2"},
+              {"t": "The Collective Kids"},
+              {"t": "Remaining songs"},
+              {"t": "Preacher's PowerPoint", "tag": "If any"}
+            ],
+            "groups": [
+              {
+                "id": "open",
+                "title": "Open the service",
+                "steps": [
+                  {"h": "Click <span class='k'>Services</span>, then click this Sunday's date", "p": "Use the Whole Church Gathering for that date. The service's items appear in the list on the left.", "img": "img/01-services.jpg", "marks": [{"x":41.5,"y":7.8,"n":1},{"x":27,"y":84.8,"n":2}]}
+                ]
+              },
+              {
+                "id": "format",
+                "title": "Check each song is formatted",
+                "steps": [
+                  {"h": "Click a song, then <span class='k'>Edit</span> → <span class='k'>Edit song slides</span>", "p": "The Edit button is at the top right of the song.", "img": "img/06-edit-menu.jpg", "marks": [{"x":73.5,"y":16.9,"n":1},{"x":65.5,"y":26.7,"n":2}]},
+                  {"h": "Song Template must say <span class='k'>Collective Template</span>", "p": "If it is empty (common with new songs), choose Collective Template there, then Save and close.", "img": "img/10-template.jpg", "marks": [{"x":91,"y":19.7,"n":1}]},
+                  {"h": "Correct looks like this: CAPITALS on a dark strip", "p": "Every line is in capital letters with a see-through dark band behind it. Check every song this way.", "img": "img/09-song-result.jpg", "marks": []}
+                ]
+              },
+              {
+                "id": "backgrounds",
+                "title": "Give each song a background",
+                "tip": "<b>Colour flow.</b> Give every song a different background from the numbered set (01 Graphite to 12 Warm Pewter) and let the colours move gently from song to song. Example: Warm Pewter → Muted Ochre → Burnt Terracotta → Muted Oxblood → Smoke Aubergine. A reprise can repeat its first colour.",
+                "swatches": [["01 Graphite","#3a3836"],["02 Midnight Indigo","#2b2a45"],["03 Slate Blue","#3c4554"],["04 Deep Petrol","#23383a"],["05 Forest Smoke","#2f3328"],["06 Dark Olive","#3d3a28"],["07 Muted Ochre","#6a4c26"],["09 Burnt Terracotta","#6b3826"],["10 Muted Oxblood","#4e2626"],["11 Smoke Aubergine","#3b2a3c"],["12 Warm Pewter","#5a524a"]],
+                "steps": [
+                  {"h": "Click the song, then <span class='k'>Edit</span> → <span class='k'>Edit service item</span>", "p": "Same Edit button as before, first option this time.", "img": "img/06-edit-menu.jpg", "marks": [{"x":73.5,"y":16.9,"n":1},{"x":65.5,"y":22.3,"n":2}]},
+                  {"h": "Set Source to <span class='k'>Media from your library</span>, then click <span class='k'>Select</span>", "p": "If Source says None, change it first.", "img": "img/07-song-form.jpg", "marks": [{"x":55,"y":54.4,"n":1},{"x":93.6,"y":66.9,"n":2}]},
+                  {"h": "Pick a numbered colour and click <span class='k'>Select</span>", "p": "Tip: type the colour name (for example 'ochre') in the search box to find it quickly.", "img": "img/08-backgrounds.jpg", "marks": [{"x":86.1,"y":59.2,"n":1}]},
+                  {"h": "Click <span class='k'>Save and close</span>", "p": "Repeat for every song.", "img": "img/07-song-form.jpg", "marks": [{"x":91.9,"y":19.1,"n":1}]}
+                ]
+              },
+              {
+                "id": "standard",
+                "title": "Add the weekly slides",
+                "tip": "<b>Where does a new item go?</b> Presenter adds a new item straight <b>after the item you have selected</b>. So click the item you want it to follow first. If something lands in the wrong place, drag it up or down in the list on the left.",
+                "steps": [
+                  {"h": "Click the item it should follow, then click <span class='k'>+</span>", "p": "For Welcome, start with an empty service, or drag it to the top afterwards. Then choose <b>Media</b> as the type.", "img": "img/02-item-type.jpg", "marks": [{"x":7.8,"y":66.7,"n":1},{"x":27.2,"y":40.7,"n":2}]},
+                  {"h": "Click <span class='k'>Select</span>", "img": "img/03-media-form.jpg", "marks": [{"x":93.6,"y":52,"n":1}]},
+                  {"h": "Search for the slide, click <span class='k'>Select</span>, then <span class='k'>Save and close</span>", "p": "Welcome has a DARK and a LIGHT version. Use whichever you prefer. Repeat for New to The Collective, Upcoming events, Home Church, Giving and The Collective Kids.", "img": "img/04-media-search.jpg", "marks": [{"x":44,"y":21.1,"n":1},{"x":86.1,"y":38.6,"n":2},{"x":86.1,"y":46.2,"n":2}]}
+                ]
+              },
+              {
+                "id": "powerpoint",
+                "title": "Add the preacher's PowerPoint",
+                "steps": [
+                  {"h": "Select the last song, click <span class='k'>+</span>, choose <span class='k'>Slides</span>, then <span class='k'>Select</span>", "p": "Save the preacher's file to the laptop first (for example in Downloads).", "img": "img/02-item-type.jpg", "marks": [{"x":7.8,"y":66.7,"n":1},{"x":27.2,"y":37.9,"n":2}]},
+                  {"h": "<span class='k'>Add Slides</span> → <span class='k'>Import PowerPoint/Keynote</span>", "p": "Choose the file and click Open. It appears at the top of the list.", "img": "img/11-add-slides.jpg", "marks": [{"x":81.1,"y":41.9,"n":1}]},
+                  {"h": "Click <span class='k'>Select</span> next to it", "p": "Then set Background Source to <b>None</b> (so the preacher's own design shows) and click Save and close.", "img": "img/12-pick-slides.jpg", "marks": [{"x":89.3,"y":38.6,"n":1}]}
+                ]
+              },
+              {
+                "id": "final",
+                "title": "Final check",
+                "steps": [
+                  {"h": "The list on the left should match the running order", "p": "A finished example. Click through each item once. Never click anything in the Main Audience Output panel (bottom left) unless you mean to put it on the big screen.", "img": "img/05-final-order.jpg", "marks": [{"box":true,"x":0.6,"y":19.5,"w":21.4,"h":76}]}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tv",
+            "title": "Connecting the laptop to the TV",
+            "groups": [
+              {
+                "id": "hdmi",
+                "title": "HDMI",
+                "steps": [
+                  {"h": "Plug the HDMI cable into the laptop"},
+                  {"h": "On the television, select <span class='k'>HDMI 1</span>", "p": "The laptop's picture should now show on the TV."}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sunday",
+            "title": "Sunday morning checklist",
+            "type": "checklist",
+            "items": [
+              {"t": "Slides prepared (ideally during the week)", "s": "Templates checked, backgrounds added, weekly slides in order."},
+              {"t": "Arrive by 9:00"},
+              {"t": "Laptop connected to the TV", "s": "HDMI cable into the laptop, then HDMI 1 on the TV. See Part 3."},
+              {"t": "Run the slides with the band's practice"},
+              {"t": "Song order and flow checked with the worship leader"},
+              {"t": "Preacher's PowerPoint added at the end, if any"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "oversight",
+      "title": "Oversight and Welcoming",
+      "blurb": "Check each area is ready, then welcome people in.",
+      "needs_help": false,
+      "help_note": "Check in with each team before the gathering, then welcome people as they arrive.",
+      "content": {
+        "sections": [
+          {
+            "id": "ready",
+            "title": "Are we ready?",
+            "intro": "A quick walk-round before people arrive. You are checking in with each team, not doing their job. If something is missing, let that team's lead know. <b>Starter list: edit it to match how Sundays really run.</b>",
+            "type": "checklist",
+            "items": [
+              {"t": "Slides: laptop connected and this Sunday's service open", "s": "Check in with the slides volunteer."},
+              {"t": "Tech: sound and screens on", "s": "Check in with the tech lead."},
+              {"t": "Kids church: leaders here and room ready", "s": "Check in with the kids church lead."},
+              {"t": "Tea and coffee: set out and ready"},
+              {"t": "Someone is at the door to welcome"}
+            ]
+          },
+          {
+            "id": "welcome",
+            "title": "Welcoming",
+            "intro": "Once the areas are ready, your main job is people.",
+            "type": "role",
+            "items": [
+              {"title": "Be at the door", "text": "Greet everyone as they arrive."},
+              {"title": "Look out for new faces", "text": "Introduce yourself, learn their name, and introduce them to someone else."},
+              {"title": "Help people find their way", "text": "Show families where kids church is, and point out the tea and coffee and the bathrooms."},
+              {"title": "Help people into the gathering", "text": "As things start, gently invite people through and help latecomers find a seat."}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tech",
+      "title": "Tech Setup",
+      "blurb": "Sound, screens and cables.",
+      "needs_help": false,
+      "help_note": "Help set up and pack away sound and screens.",
+      "content": {
+        "sections": [
+          {
+            "id": "setup",
+            "title": "Setup checklist",
+            "intro": "<b>Starter list.</b> The tech lead looks after this page. Add the things you find yourself explaining most often.",
+            "type": "checklist",
+            "items": [
+              {"t": "Check in with the tech lead when you arrive"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "kids",
+      "title": "Kids Church",
+      "blurb": "Getting the kids' space ready.",
+      "needs_help": false,
+      "help_note": "Help with The Collective Kids on a Sunday.",
+      "content": {
+        "sections": [
+          {
+            "id": "setup",
+            "title": "Setup checklist",
+            "intro": "<b>Starter list.</b> The kids church lead looks after this page. Add the things you find yourself explaining most often.",
+            "type": "checklist",
+            "items": [
+              {"t": "Check in with the kids church lead when you arrive"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "hospitality",
+      "title": "Tea, Coffee and Setup",
+      "blurb": "Refreshments and getting the room ready.",
+      "needs_help": false,
+      "help_note": "Help set out tea and coffee and get the room ready.",
+      "content": {
+        "sections": [
+          {
+            "id": "setup",
+            "title": "Setup checklist",
+            "intro": "<b>Starter list.</b> Edit this to match how the team already does it.",
+            "type": "checklist",
+            "items": [
+              {"t": "Check in with whoever is leading setup when you arrive"}
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
